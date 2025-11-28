@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+
+@font-face {
+  font-family: 'Axiforma Medium';
+  src: url('/src/assets/font/Axiforma-Medium.woff2') format('woff2'),
+       url('/src/assets/font/Axiforma-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body{
+  font-family: Axiforma Medium;
+}

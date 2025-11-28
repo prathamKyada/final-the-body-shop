@@ -1,0 +1,32 @@
+http://localhost:4001/api/auth/login [POST]
+
+{
+    "emailId": "abccc@gg.in",
+    "password": "abc01"
+}
+
+http://localhost:4001/api/contact-us/contact [POST]
+
+{
+    "firstName": "abc",
+    "lastName": "xyz",
+    "email": "abc@xyz.in",
+    "message": "hello how are you"
+}
+
+http://localhost:4001/api/contact-us/contact/messages [GET]
+
+http://localhost:4001/api/auth/update-image/67c299363b77425639e497b0 [PUT]
+
+http://localhost:4001/api/auth/all-user-data [GET]
+
+http://localhost:4001/api/auth/update-details/67c1e305639c3c05666a019e [PUT]
+
+{
+  "fullName": "John Doe",
+  "emailId": "john.doe@example.com",
+  "contactNumber": "9876543210"
+}
+
+http://localhost:4001/api/auth/delete-user/67c1e305639c3c05666a019e [DELETE]
+
